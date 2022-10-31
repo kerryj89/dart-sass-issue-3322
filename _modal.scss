@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+
+.modal {
+  &__backdrop {
+    @include animate('fade-in', 1s);
+  }
+}
