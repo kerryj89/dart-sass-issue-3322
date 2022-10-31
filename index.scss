@@ -1,0 +1,10 @@
+@use 'a';
+
+%random {
+  color: red;
+}
+
+.some-selector {
+  @extend %random;
+  display: flex;
+}
