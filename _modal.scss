@@ -1,5 +1,5 @@
-@use 'mixins' as *;
+@use 'mixins';
 
 .modal__backdrop {
-    @include animate();
+    @include mixins.animate();
 }
