@@ -1,0 +1,6 @@
+@use 'sass:meta';
+@use 'mixins';
+
+.test {
+  @include meta.load-css('modal');
+}
