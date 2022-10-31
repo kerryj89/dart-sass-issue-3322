@@ -36,7 +36,7 @@ Use "@extend .animate--fade-in !optional" to avoid this error.
   _mixins.scss 9:5  root stylesheet
 ```
 
-...*but it [looks like it is](https://github.com/kerryj89/dart-sass-issue-3322/blob/main/_mixins.scss)*?
+...*but it [looks like it is](https://github.com/kerryj89/dart-sass-issue-3322/blob/main/_mixins.scss)*? Placing `.animate--fade-in {...}` into the `@mixin` still results in the same error.
 
 ## Observations
 
