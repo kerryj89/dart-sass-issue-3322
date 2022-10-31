@@ -1,5 +1,7 @@
 # dart-sass-issue-3322
 
+https://github.com/sass/sass/issues/3322
+
 ## Replicate
 1. `npm i`
 2. `sass _index.scss test.css`
