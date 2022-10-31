@@ -1,0 +1,11 @@
+@use 'sass:meta';
+@use 'variables' as *;
+
+.animate--fade-in {
+    color: red;
+}
+
+@mixin animate() {
+    @extend .animate--fade-in;
+    animation-duration: 0.2s;
+}
